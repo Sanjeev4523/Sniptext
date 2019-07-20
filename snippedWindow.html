@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Text</title>
+</head>
+<body>
+   
+    <h1> TAke the damn Screenshot</h1>
+   
+    <script src='https://unpkg.com/tesseract.js@1.0.19/src/index.js'>
+    let img = new Image();
+    console.log('not inside');
+    //img.src = "D:\Projects\Sniptext\myImage.PNG";
+    img.onload = function(){
+      console.log("inside");
+      Tesseract.recognize(img)
+          .progress(progress => {
+            console.log('progress', progress);
+          })
+          .then(result => {
+            console.log('result', result);
+          });
+        }
+      
+    </script>
+    <h1> DOne</h1>
+
+</body>
+</html>
