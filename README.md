@@ -3,7 +3,7 @@ The Idea is to create a screeshot tool which can convert the image into text. Th
 dont have a source code file.
 
 Librarise used include
-- NodeLS
+- NodeJS
 - Electron FrameWork
 - Windows Snipping tool
 - Tesseract OCR
