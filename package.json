@@ -9,7 +9,7 @@
   "author": "sanjeev",
   "license": "MIT",
   "dependencies": {
-    "electron": "^7.2.4",
+    "electron": "^13.6.6",
     "tesseract.js": "^1.0.19"
   }
 }
